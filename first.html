@@ -45,6 +45,7 @@
             }
             #visArea {
                 float: left;
+                overflow: hidden;
                 height: 800px;
                 width: 1300px;
                 margin-top: 10px;
@@ -127,9 +128,22 @@
                 font-weight: bold;
                 font-size: 14px;
             }
+            .squareIndexText {
+                position: absolute;
+                display: inline-block;
+                margin-left: 17px;
+                font-family: Arial, Georgia, sans-serif;
+                font-weight: bold;
+                font-size: 14px;
+            }
             .arrayWrapper {
+                display: flex;
+                flex-wrap: wrap;
                 background-color: #ffffff;
-                display: block;
+                width: 100%;
+            }
+            .squareWrapper {
+                display: flex;
             }
         </style>
     </head>
